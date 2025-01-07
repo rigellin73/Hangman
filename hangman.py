@@ -1,6 +1,8 @@
 import random
 
 from ascii_art import logo, stages
+
+# TODO: use PyDictionary instead of handmade dictionary
 from dictionary import word_list
 
 lives = 6
