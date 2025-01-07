@@ -14,7 +14,7 @@ guess = ""
 
 while not game_over:
     print(f"Word to guess: {''.join(guessed_word)}")
-    guess = input("Guess a letter: ")
+    guess = input("Guess a letter: ").lower()
     guessed = False
 
     for index, letter in enumerate(chosen_word):
